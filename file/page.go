@@ -74,12 +74,3 @@ func NewPage(blocksize uint64) *Page {
 	}
 	return p
 }
-
-// NewLogPage returns a pointer to an initialized page.
-/*
-func NewLogPage(b []byte) *Page {
-	return &Page{
-		buf: b,
-	}
-}
-*/
